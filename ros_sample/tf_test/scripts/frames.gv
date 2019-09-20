@@ -1,0 +1,8 @@
+digraph G {
+"map" -> "sigma1"[label="Broadcaster: /tf_set_5995_1560775265226\nAverage rate: 10.204 Hz\nMost recent transform: 1560775293.065 ( 0.055 sec old)\nBuffer length: 4.900 sec\n"];
+"sigma1" -> "sigma2"[label="Broadcaster: /tf_set_5995_1560775265226\nAverage rate: 10.204 Hz\nMost recent transform: 1560775293.065 ( 0.055 sec old)\nBuffer length: 4.900 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1560775293.120"[ shape=plaintext ] ;
+ }->"map";
+}
